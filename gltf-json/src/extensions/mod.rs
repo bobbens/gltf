@@ -61,6 +61,8 @@ pub const ENABLED_EXTENSIONS: &[&str] = &[
     "KHR_texture_basisu",
     #[cfg(feature = "EXT_texture_webp")]
     "EXT_texture_webp",
+    #[cfg(feature = "EXT_texture_avif")]
+    "EXT_texture_avif",
     #[cfg(feature = "allow_empty_texture")]
     "MSFT_texture_dds",
 ];
@@ -77,4 +79,5 @@ pub const SUPPORTED_EXTENSIONS: &[&str] = &[
     "KHR_materials_clearcoat",
     "KHR_materials_sheen",
     "EXT_texture_webp",
+    "EXT_texture_avif",
 ];
